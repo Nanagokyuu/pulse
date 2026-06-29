@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/main.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/main.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/main.cpp",
+  "output": "CMakeFiles/pulse.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/utils/format.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/utils/format.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/utils/format.cpp",
+  "output": "CMakeFiles/pulse.dir/src/utils/format.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/smc/smc.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/smc/smc.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/smc/smc.cpp",
+  "output": "CMakeFiles/pulse.dir/src/smc/smc.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/io_report/io_report.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/io_report/io_report.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/io_report/io_report.cpp",
+  "output": "CMakeFiles/pulse.dir/src/io_report/io_report.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/io_report/io_report_power.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/io_report/io_report_power.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/io_report/io_report_power.cpp",
+  "output": "CMakeFiles/pulse.dir/src/io_report/io_report_power.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/io_report/io_report_freq.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/io_report/io_report_freq.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/io_report/io_report_freq.cpp",
+  "output": "CMakeFiles/pulse.dir/src/io_report/io_report_freq.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/sensors/temperature.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/sensors/temperature.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/sensors/temperature.cpp",
+  "output": "CMakeFiles/pulse.dir/src/sensors/temperature.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/sensors/cpu.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/sensors/cpu.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/sensors/cpu.cpp",
+  "output": "CMakeFiles/pulse.dir/src/sensors/cpu.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/sensors/memory.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/sensors/memory.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/sensors/memory.cpp",
+  "output": "CMakeFiles/pulse.dir/src/sensors/memory.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/sensors/battery.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/sensors/battery.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/sensors/battery.cpp",
+  "output": "CMakeFiles/pulse.dir/src/sensors/battery.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/powermetrics/powermetrics.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/powermetrics/powermetrics.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/powermetrics/powermetrics.cpp",
+  "output": "CMakeFiles/pulse.dir/src/powermetrics/powermetrics.cpp.o"
+},
+{
+  "directory": "/Users/nanagokyuu/Documents/code/pulse/build-copilot",
+  "command": "/usr/bin/c++  -I/Users/nanagokyuu/Documents/code/pulse/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/pulse.dir/src/ui/ncurses.cpp.o -c /Users/nanagokyuu/Documents/code/pulse/src/ui/ncurses.cpp",
+  "file": "/Users/nanagokyuu/Documents/code/pulse/src/ui/ncurses.cpp",
+  "output": "CMakeFiles/pulse.dir/src/ui/ncurses.cpp.o"
+}
+]

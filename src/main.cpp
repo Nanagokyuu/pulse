@@ -37,13 +37,7 @@ static SystemSample collectSystemSample() {
     applyTemperatureGroup(sample.power, hid_temps.gpu_temps, true);
 
     if (!sample.power.system_power_watts) {
-        if (sample.battery.input_power_watts && sample.battery.battery_power_watts) {
-            sample.power.system_power_watts = *sample.battery.input_power_watts + *sample.battery.battery_power_watts;
-        } else if (sample.battery.input_power_watts) {
-            sample.power.system_power_watts = sample.battery.input_power_watts;
-        } else if (sample.battery.battery_power_watts) {
-            sample.power.system_power_watts = sample.battery.battery_power_watts;
-        }
+        sample.power.system_power_watts = readSmcPower("PSTR");
     }
 
     g_io_report_power.collect();

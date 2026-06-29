@@ -1,0 +1,7 @@
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/pulse.dir
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/edit_cache.dir
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/rebuild_cache.dir
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/list_install_components.dir
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/install.dir
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/install/local.dir
+/Users/nanagokyuu/Documents/code/pulse/build-copilot/CMakeFiles/install/strip.dir
