@@ -34,3 +34,5 @@ target_link_libraries(pulse PRIVATE
     ${COREFOUNDATION_FRAMEWORK}
     ${CURSES_LIBRARIES}
 )
+
+install(TARGETS pulse DESTINATION bin)
