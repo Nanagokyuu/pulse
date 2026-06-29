@@ -1,0 +1,13 @@
+.DS_Store
+
+/[Bb]uild/
+/CMakeUserPresets.json
+
+.vscode/
+.idea/
+
+*.o
+*.a
+*.so
+
+AGENTS.md
