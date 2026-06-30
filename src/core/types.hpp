@@ -31,6 +31,7 @@ struct BatteryMetrics {
     std::optional<double> capacity_pct;
     std::optional<double> input_power_watts;
     std::optional<double> battery_power_watts;
+    std::optional<double> cycle_count;
     bool is_charging = false;
 };
 

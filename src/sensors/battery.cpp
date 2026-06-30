@@ -67,6 +67,10 @@ BatteryMetrics readBatteryMetrics() {
                 }
             }
 
+            if (auto cc = cfNumberToDouble(props, CFSTR("CycleCount"))) {
+                result.cycle_count = *cc;
+            }
+
             if (raw_battery_power_w) {
                 if (result.is_charging) result.battery_power_watts = 0.0;
                 else result.battery_power_watts = std::abs(*raw_battery_power_w);

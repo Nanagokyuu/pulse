@@ -188,7 +188,8 @@ void renderUiView(const SystemSample& sample, const std::deque<double>& cpu_hist
     drawMetricLine(top_h + 3, 22, "state", sample.battery.is_charging ? "charging" : "battery/idle");
     drawMetricLine(top_h + 4, 2, "sys total", formatNumber(sample.power.system_power_watts, "W", 2));
     drawMetricLine(top_h + 4, 22, "dc in", formatNumber(sample.battery.input_power_watts, "W", 2));
-    drawMetricLine(top_h + 4, 40, "battery out", formatNumber(sample.battery.battery_power_watts, "W", 2));
+    drawMetricLine(top_h + 5, 2, "battery out", formatNumber(sample.battery.battery_power_watts, "W", 2));
+    drawMetricLine(top_h + 5, 22, "cycle", formatNumber(sample.battery.cycle_count, "", 0));
     double power_max = 20.0;
     for (double v : power_history) if (v > power_max) power_max = v;
     drawLineChartScaled(top_h + 6, 2, std::max(4, bottom_h - 8), std::max(10, left_w - 4), power_history, 4, power_max);
