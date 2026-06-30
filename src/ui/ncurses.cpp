@@ -184,7 +184,7 @@ void renderUiView(const SystemSample& sample, const std::deque<double>& cpu_hist
     drawLineChart(6, left_w + 2, std::max(4, top_h - 8), chart_w, gpu_history, 3);
 
     drawBox(top_h + 1, 0, bottom_h, left_w, "Power & Battery", 4);
-    drawMetricLine(top_h + 3, 2, "battery", formatNumber(sample.battery.capacity_pct, "%"));
+    drawMetricLine(top_h + 3, 2, "battery", formatNumber(sample.battery.capacity_pct, "%", 0));
     drawMetricLine(top_h + 3, 22, "state", sample.battery.is_charging ? "charging" : "battery/idle");
     drawMetricLine(top_h + 4, 2, "sys total", formatNumber(sample.power.system_power_watts, "W", 2));
     drawMetricLine(top_h + 4, 22, "dc in", formatNumber(sample.battery.input_power_watts, "W", 2));

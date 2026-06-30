@@ -5,6 +5,7 @@
 #include <IOKit/ps/IOPowerSources.h>
 #include <IOKit/ps/IOPSKeys.h>
 
+#include <algorithm>
 #include <cmath>
 #include <optional>
 
@@ -72,8 +73,8 @@ BatteryMetrics readBatteryMetrics() {
             }
 
             if (raw_battery_power_w) {
-                if (result.is_charging) result.battery_power_watts = 0.0;
-                else result.battery_power_watts = std::abs(*raw_battery_power_w);
+                // PPBR can report battery discharge even while on AC; only clamp charge direction.
+                result.battery_power_watts = std::max(0.0, *raw_battery_power_w);
             }
             CFRelease(props);
         }
